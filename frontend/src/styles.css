@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+/* Structure */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import 'ngx-toastr/toastr';
+
+.example-container {
+display: flex;
+flex-direction: column;
+min-width: 300px;
+}
+
+.example-header {
+min-height: 64px;
+padding: 8px 24px 0;
+}
+
+.mat-form-field {
+font-size: 14px;
+width: 100%;
+}
+
+.mat-table {
+overflow: auto;
+max-height: 500px;
+}
+
+mat-paginator {
+    margin-top: 1%;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+body {
+    margin: 2% !important;
+}
+
+table {
+width: 100%;
+border: 10%;
+}
+
+mat-form-field {
+font-size: 14px;
+width: 100%;
+}
+
+.add-btn {
+    margin-right: 1%;
+    width: 100px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    background: #1cdfa9 !important;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+}
+.cancel-btn {
+    background: #75807d !important;
+}
+tr {
+    padding: 2%;
+}
+
+.icon-btn {
+    background: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+}

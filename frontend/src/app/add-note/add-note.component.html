@@ -1,0 +1,12 @@
+<h2>Add notes</h2>
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Title" [(ngModel)]="title" [ngModelOptions]="{standalone: true}">
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Body" [(ngModel)]="body" [ngModelOptions]="{standalone: true}"></textarea>
+    </mat-form-field>
+</form>
+<button mat-button class="add-btn add-note-btn" (click)="createNote()">Add</button>
+<button mat-button class="add-btn cancel-btn" (click)="cancel()">Cancel</button>
